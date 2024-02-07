@@ -34,9 +34,11 @@ Link: [Test Application](https://thinking-tester-contact-list.herokuapp.com/)
 ## Running Tests
 1. Navigate to the project directory.
 2. Install the dependencies using command `pip install -r requirements.txt`. The file requirements.txt is available in project repository.
-3. Execute tests using command `pytest --html=report.html --self-contained-html`
-4. report.html file shall be generated in project directory
-5. Sample report is shown below
+3. To execute all the tests, use the command `pytest --html=report.html --self-contained-html`
+4. To execute a single test script, use the command `pytest <testscript name along with path> --html=report.html --self-contained-html` </br>
+   example: `pytest .\tests\test_api.py --html=report.html --self-contained-html` 
+6. report.html file shall be generated in project directory
+7. Sample report is shown below
     <img width="942" alt="image" src="https://github.com/Naimisha-14/ContactAppAutomation/assets/83571737/f509f5c5-a035-4d0d-a583-93333c067fb9">
 
 ## Tests Covered
