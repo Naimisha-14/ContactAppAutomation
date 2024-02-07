@@ -1,4 +1,4 @@
-# Project Title: UI and API Automated Testing with Pytest and Selenium
+# UI and API Automated Testing Demonstration with Pytest and Selenium
 
 ## Overview
 This project demonstrates UI and API automated testing using Python and Selenium WebDriver. Selenium is a powerful tool for automating web browsers and is widely used for testing web applications.
