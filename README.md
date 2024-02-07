@@ -21,12 +21,6 @@ Link: [Test Application](https://thinking-tester-contact-list.herokuapp.com/)
 2. Download the appropriate version of Chrome webdriver executable for your browser and place it in the drivers folder of project directory.
 3. Clone this repository to your local machine.
 
-## Running Tests
-1. Navigate to the project directory.
-2. Install the dependencies using command `pip install -r requirements.txt`. The file requirements.txt is available in project repository.
-3. Execute tests using command `pytest --html=report.html`
-4. report.html file shall be generated in project directory
-
 ## Project Structure
 
 - `tests/`: Contains test classes.
@@ -35,7 +29,15 @@ Link: [Test Application](https://thinking-tester-contact-list.herokuapp.com/)
 - `src/common/`: Contains common web element functions
 - `src/api_func`: Contains API methods
 - `resources`: Contains application details like URL, Username, password etc
-- `drivers`: Executable driver for Chrome should be added
+- `drivers`: Executable driver for Chrome should be added here
+  
+## Running Tests
+1. Navigate to the project directory.
+2. Install the dependencies using command `pip install -r requirements.txt`. The file requirements.txt is available in project repository.
+3. Execute tests using command `pytest --html=report.html --self-contained-html`
+4. report.html file shall be generated in project directory
+5. Sample report is shown below
+    <img width="942" alt="image" src="https://github.com/Naimisha-14/ContactAppAutomation/assets/83571737/f509f5c5-a035-4d0d-a583-93333c067fb9">
 
 ## Tests Covered
 
@@ -46,5 +48,5 @@ Script: `/tests/test_ui.py`
 
 ### API Tests
 Script: `/tests/test_api.py`
-1. Valid and Invalid Login - Post Methods
+1. Valid and Invalid Login - Post Method
 2. User Data Validation - Valid and Invalid scenario - Get Method
