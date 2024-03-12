@@ -1,4 +1,4 @@
-name: test
+name: test00
 on:
  workflow_dispatch:
    inputs:
@@ -11,4 +11,3 @@ jobs:
     steps:
       - uses: actions/checkout@v3
  
-    
