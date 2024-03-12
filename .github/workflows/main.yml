@@ -1,0 +1,11 @@
+name: test
+on:
+ workflow_dispatch:
+   inputs:
+    user:
+     type: str
+     required: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
