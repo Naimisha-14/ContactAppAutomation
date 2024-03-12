@@ -1,11 +1,13 @@
-name: test
+name: test00
 on:
  workflow_dispatch:
    inputs:
-    username:
+    user:
      type: str
      required: true
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+    steps:
+      - uses: actions/checkout@v3
+ 
